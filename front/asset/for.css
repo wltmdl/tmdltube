@@ -1,0 +1,66 @@
+#top{
+    height: 70px;
+    padding: 5px 30px;
+}
+#left{
+    width: 25%;
+}
+#center{
+    height: 45px;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#right{
+    display: flex;
+    justify-content:flex-end;
+    height: 50px;
+    width: 20%;
+    
+}
+.search_center{
+    height: 50px;
+    width: 80%;
+    background-color: gainsboro;
+}
+.cancle_center{
+    position: absolute;
+    top:28px;
+    left: 65%;
+}
+
+#main{
+    align-items:flex-start;
+
+    background-color: gainsboro;
+}
+#mainLeft{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+
+}
+#mainRight{
+    width: 80%;
+    border-top:1px solid black;
+    padding: 10px;
+}
+
+.menuBox{
+    padding: 8px 0;
+    border-bottom:1px solid black;
+}
+
+.menuItem{
+    display: flex;
+    align-items: center;
+    
+    height: 55px;
+}
+#infoAboutWeb{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    margin-left: 30px;
+}
